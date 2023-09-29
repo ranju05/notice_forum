@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,800;1,500;1,600&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin : 0;
+    padding : 0;
+    background-color: rgb(237, 237, 233);
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    background:rgb(23, 1, 66);
+    
+}
+
+.back{
+   background:rgb(23, 1, 66);
+   display: flex;
+   margin:3px;
+   
+}
+.back button a{
+    border:none;
+}
+.back button a img{
+    margin:5px;
+    display:inline;
+    width:15px;
+    border:none;
+   
+}
+.back button a img:hover{
+    width: 21px;
+}
+#back:hover{
+    background:black;
+    color:white;
+
+}
+
+
+
+.body{
+    
+   
+    
+    display:flex;
+    background:rgb(23, 1, 66);
+    
+}
+
+
+form{
+    padding: 5px;
+    margin: 10px auto;
+    height:90vh;
+}
+
+label{
+    display: block;
+    
+}
+
+.line{
+    margin-top : 20px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 600px;
+}
+
+input{
+    width: 550px;
+}
+/*.line-up{
+    margin-top: 30px;
+    
+}*/
+.line-up input[type=submit]{
+    display:inline;
+    width:100px;
+    margin:5px;
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 5px;
+}
+#cancel:hover{
+    background:rgb(23, 1, 66);
+    color:white;
+
+}
+/*.line-up{
+    margin-top: 10px;
+    
+}*/
+#update, #upload{
+    background-color:rgb(23, 1, 66) ;
+    color:white;
+}
+#update:hover, #upload:hover{
+    background:white;
+    color:black;
+}
+
+
+
+/*input[type=submit]{
+    width:50%;
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 5px;
+    margin:0 auto;
+}*/
+input[type=checkbox]{
+    width: 20px;
+}
+span{
+    display:block;
+    color:red;
+    font-size: 14px;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0 ;
+    padding : 0;
+}
+
+
+span, img{
+    display: inline-block;
+    padding: 15px;
+}
+img{
+    float : right;
+    padding-right:30px; 
+    width : 5% ;
+    height: auto;
+}
+.bar{
+    background-color: #6ca5f0;
+    padding : 15px 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size  : 14px;
+    font-weight: bold;
+}
+
+h2, ul, li{
+    display: inline-block;
+    margin : 10px 15px;
+    
+}
+ul{
+    float : right;
+    margin-right: 50px;
+}
+
+li{
+    padding : 0 30px;   
+}

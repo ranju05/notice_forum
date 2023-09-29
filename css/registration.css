@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,800;1,500;1,600&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0 ;
+    padding: 0 ;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,h3{
+    text-align: center;
+}
+#link{
+    text-decoration: none;
+    color: black;
+}
+#link:hover{
+    color : rgb(33, 33, 104);
+}
+
+.block{
+    width: 30%;
+    border: 3px solid #e7cba13d;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+}
+h2{
+    text-align: center;
+    color:#1458b2;
+    
+}
+
+label{
+    display:block;
+}
+
+input, select {
+    display:block;
+    border:2px solid #c1a27e3d;
+    border-radius: 5px;
+    width:100%;
+    
+    
+}
+input[type=checkbox]{
+    width : 15px;
+    display:inline-block;
+}
+
+input[type=submit]{
+    
+    border:0;
+    border-radius : 2px;
+    background-image: linear-gradient(to right, rgb(232, 20, 186) ,rgb(50, 50, 156), rgb(232, 20, 186));
+    color:white;
+    font-size:10px;
+    padding: 5px;
+    height: 22px;
+}
+.line{
+    margin: 10px 0;
+}
+
+p{
+    font-size: 12px;
+    font-weight : 50px;
+    text-align: center;
+}
+.error{
+    color: red;
+    font-size: 12px;
+}
+.back button{
+    border:none;
+    margin:20px;
+    background: none;
+}
+
+.back button a{
+    border:1px solid black;
+    border-radius: 10px;;
+    text-decoration: none;
+    padding:5px;
+    color:black;
+    font-weight: bold;
+}
+.back button a:hover{
+    color:white;
+    background-color: black;
+   
+}

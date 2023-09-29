@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,800;1,500;1,600&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding : 0;
+    font-family: 'Poppins', sans-serif;
+}
+.button{
+    float: right;
+    margin-right : 30px;
+}
+.button ul li{
+    display: inline-block;
+    margin:10px;
+}
+.button ul li a{
+   padding : 5px;
+   text-decoration: none;
+   font-weight: bold;
+   color:black;
+   
+}
+
+.button button{
+    border:1px solid white;
+    border-radius : 5px;
+    background-color: grey;
+    
+
+}
+
+
+.title{
+    background : black;
+    height : 90px;
+    
+
+
+}
+.title h1, h2{
+    color : white;
+    
+}
+
+.title h1{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.title h2{
+   padding : 5px;
+    
+}
+/*.profile_wrap{
+    position : absolute;
+    top:15%;
+    right:5%;
+    width:300px;
+
+}
+.profile{
+    background-color: rgb(237, 229, 219);
+    padding:20px;
+    margin:10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user i{
+    margin-right:10px;
+}
+.profile hr{
+    border:0;
+    height:1;
+    background-color: #595454;
+    margin:15px 0 10px;
+
+}
+*/
+body{
+    background-color: rgb(203, 207, 211);
+}
+.body{
+    margin:100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body button{
+    
+    margin:20px;
+    border: 2px solid rgb(93, 99, 101);
+    border-radius: 5px;
+    width:300px;
+    height:200px;
+}
+.body button a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+    display: inline-block;
+    padding:50px;
+    
+}
+  
+#notice{
+    background:rgb(76, 129, 243);
+}
+#user{
+    background : rgb(87, 183, 87);
+
+}
+#upload{
+    background : rgb(202, 181, 79);
+
+}
